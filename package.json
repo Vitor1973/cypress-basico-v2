@@ -5,7 +5,7 @@
   "main": "src/index.html",
   "scripts": {
     "cy:open": "cypress open",
-     "test": "cypress run"
+    "test": "cypress run"
   },
   "repository": {
     "type": "git",
