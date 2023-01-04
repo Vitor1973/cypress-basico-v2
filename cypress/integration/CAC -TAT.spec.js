@@ -8,7 +8,7 @@ describe('Central de Atendimento ao Cliente TAT', function() {
         //cy.visit('https://automacao-vitao.netlify.app')
     })
 
-    it.only('verifica o titulo da aplicação', function() {
+    it('verifica o titulo da aplicação', function() {
         cy.title().should('be.equal', 'Central de Atendimento ao Cliente TAT')
     })
 
@@ -65,3 +65,15 @@ describe('Central de Atendimento ao Cliente TAT', function() {
         cy.get('.success').should('be.visible')
     })
 })
+
+
+
+
+
+
+
+
+
+
+
+

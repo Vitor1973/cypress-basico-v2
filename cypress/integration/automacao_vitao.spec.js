@@ -10,7 +10,7 @@ describe('Central de Atendimento ao Cliente TAT', function() {
         
         cy.visit('https://automacao-vitao.netlify.app')
     })
-it.only('Entrar na pagina do vitor', function()  {
+it('Entrar na pagina do vitor', function()  {
         cy.get('#Email').type('devechi.victor@hotmail.com')
         cy.get('#Senha').type('vec242526')
         cy.get('#Nome').type('Maria')
