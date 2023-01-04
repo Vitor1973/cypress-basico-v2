@@ -48,11 +48,7 @@ describe('Central de Atendimento ao Cliente TAT', function() {
 
     })
      
-    it('Fazer automação da pagina dos minions', function(){
-        cy.get('#Email').type('devechi.victor@hotmail.com')
-        cy.get('#Senha').type('vec242526')
-        cy.get('#enviar').click()
-    })
+ 
     
     it('preenche os campos obrigatórios e enviar o formulário', function(){
         cy.get('#firstName').type('Maria')
