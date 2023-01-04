@@ -19,6 +19,7 @@ it('Entrar na pagina do vitor', function()  {
         cy.get('#Endereço').type('Rua tal, 500')
 
         cy.get('#enviar').click()
+        cy.get('#enviar').should('be.visible') // Esse é um teste
 
 })
 })
